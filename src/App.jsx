@@ -48,13 +48,13 @@ function App() {
           <a href="https://discord.gg/2BCnEmmY" target="_blank">
             <FaDiscord color="yellow" fontSize={30} />
           </a>
-          <a href="https://instagra.com/magaibasogentle" target="_blank">
+          <a href="https://instagram.com/magaibasogentle" target="_blank">
             <FaInstagram color="yellow" fontSize={30} />
           </a>
         </section>
         <section className="whitepaper">
           <a href="whitepaper.pdf" target="_blank">
-            <span>Read Whitepaper</span>
+            <span>read whitepaper</span>
           </a>
         </section>
         <img
