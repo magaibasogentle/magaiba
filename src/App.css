@@ -20,7 +20,26 @@ main {
 .birthday-magaiba {
   position: absolute;
   left: 100px;
-  top: 100px;
+  top: 50px;
+}
+
+.community-links {
+  font-size: 1.3em;
+  color: white;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+.community-links > ul {
+  list-style: none;
+}
+.community-links a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.community-links li:hover {
+  font-weight: bold;
 }
 
 .audio {
@@ -40,9 +59,15 @@ main {
 }
 
 .links {
+  position: absolute;
   display: flex;
+  flex-direction: column;
   gap: 20px;
-  margin-top: 20px;
+  top: 25px;
+  right: 50px;
+}
+.links a:hover {
+  transform: scale(1.1);
 }
 
 .whitepaper {
@@ -53,12 +78,13 @@ main {
 }
 
 .title {
+  display: flex;
+  flex-direction: column;
   font-family: "Madimi One", sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* -webkit-text-stroke: 0.5px black; */
 }
 .title > h1 {
   font-size: 10em;
@@ -73,6 +99,18 @@ main {
   color: yellow;
   transform: rotate(-5deg);
 }
+.title .ctas {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  bottom: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.title .ctas button {
+  cursor: pointer;
+  padding: 10px 20px;
+}
 
 .video {
   display: flex;
@@ -84,4 +122,96 @@ main {
 .video p {
   font-size: 3em;
   margin-top: 20px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) {
+  .title {
+    top: 250px;
+  }
+  .title > h1 {
+    font-size: 5em;
+  }
+  .title > h2 {
+    font-size: 2.4em;
+  }
+  .title .ctas {
+    bottom: -150px;
+  }
+
+  .super-magaiba {
+    width: 200px;
+  }
+
+  .birthday-magaiba {
+    width: 100px;
+    top: 100px;
+    left: 50px;
+  }
+
+  .community-links {
+    bottom: 100px;
+  }
+
+  .links {
+    top: 100px;
+  }
+
+  .video {
+    display: none;
+  }
+
+  .arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .address {
+    font-size: 0.5em;
+    flex-direction: column;
+  }
+
+  .title {
+    left: 46%;
+    top: 230px;
+    margin-right: -40px;
+  }
+  .title h1 {
+    font-size: 3em;
+  }
+  .title h2 {
+    font-size: 1.2em;
+    top: 50px;
+    left: 50px;
+  }
+  .title .ctas {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    margin-top: 110px;
+    margin-left: 10px;
+  }
+
+  .links {
+    width: fit-content;
+    position: absolute;
+    flex-direction: row;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 45px;
+  }
+
+  .community-links {
+    max-width: 100px;
+    font-size: 0.8em;
+    bottom: 50px;
+  }
+
+  .birthday-magaiba {
+    display: none;
+  }
 }

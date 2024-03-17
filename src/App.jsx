@@ -52,26 +52,75 @@ function App() {
             <FaInstagram color="yellow" fontSize={30} />
           </a>
         </section>
+
         <section className="whitepaper">
           <a href="whitepaper.pdf" target="_blank">
             <span>read whitepaper</span>
           </a>
         </section>
-        <img
-          className="super-magaiba"
-          src="magaiba-transparent-upscale.png"
-          alt="magaiba so gentle, magaiba so good"
-        />
+
         <img
           className="birthday-magaiba"
           src="birthday.png"
           alt="magaiba birthday so gentle"
         />
+
+        <section className="community-links">
+          <b>community so gentle:</b>
+          <ul>
+            <li>
+              <a href="https://sogentle.net" target="_blank">
+                👉 get your random magaiba meme
+              </a>
+            </li>
+            <li>
+              <a href="https://sogentle.net/maker" target="_blank">
+                👉 magaiba meme maker
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://zcensored.github.io/magaiba-game/"
+                target="_blank"
+              >
+                👉 magaiba jump game
+              </a>
+            </li>
+            <li>
+              <a href="https://magaibabird.fly.dev/" target="_blank">
+                👉 magaiba fly game
+              </a>
+            </li>
+          </ul>
+        </section>
+
         <div className="title">
           <h1>$MAGAIBA</h1>
           <h2>so gentle, so good!</h2>
+          <div className="ctas">
+            <a
+              href="https://dexscreener.com/solana/5pxvyeqa7iwfuxcypuiqpdjztafnc8x5s3x3tddmptoa?maker=GufSRJrwUL6StF9Tux4MVEiTkDquUpPG8B8TKQm6DqKY"
+              target="_blank"
+            >
+              <button>DEX</button>
+            </a>
+            <a
+              href="https://jup.ag/swap/SOL-MAGAIBA_A6rSPi9JmJgVkW6BatsA6MjFYLseizPM2Fnt92coFjf4"
+              target="_blank"
+            >
+              <button>JUP</button>
+            </a>
+          </div>
         </div>
+
+        <img
+          className="super-magaiba"
+          src="magaiba-transparent-upscale.png"
+          alt="magaiba so gentle, magaiba so good"
+        />
+
         <FaArrowDown
+          className="arrow"
           style={{
             position: "absolute",
             bottom: 20,
