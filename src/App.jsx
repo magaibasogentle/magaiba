@@ -7,6 +7,7 @@ import {
   FaTelegram,
   FaYoutube,
   FaArrowDown,
+  FaTiktok,
 } from "react-icons/fa";
 
 function App() {
@@ -42,7 +43,10 @@ function App() {
           <a href="https://x.com/magaibasogentle" target="_blank">
             <FaTwitter color="yellow" fontSize={30} />
           </a>
-          <a href="https://youtube.com/@magaibasogentle" target="_blank">
+          <a
+            href="https://www.youtube.com/@magaibasogentle/streams"
+            target="_blank"
+          >
             <FaYoutube color="yellow" fontSize={30} />
           </a>
           <a href="https://discord.gg/2BCnEmmY" target="_blank">
@@ -50,6 +54,9 @@ function App() {
           </a>
           <a href="https://instagram.com/magaibasogentle" target="_blank">
             <FaInstagram color="yellow" fontSize={30} />
+          </a>
+          <a href="https://www.tiktok.com/@magaibasogentle" target="_blank">
+            <FaTiktok color="yellow" fontSize={30} />
           </a>
         </section>
 
@@ -68,6 +75,14 @@ function App() {
         <section className="community-links">
           <b>community so gentle:</b>
           <ul>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=EBW2yM0VLqo "
+                target="_blank"
+              >
+                👉 radio magaiba
+              </a>
+            </li>
             <li>
               <a href="https://sogentle.net" target="_blank">
                 👉 get your random magaiba meme
@@ -98,18 +113,27 @@ function App() {
           <h1>$MAGAIBA</h1>
           <h2>so gentle, so good!</h2>
           <div className="ctas">
-            <a
-              href="https://dexscreener.com/solana/5pxvyeqa7iwfuxcypuiqpdjztafnc8x5s3x3tddmptoa?maker=GufSRJrwUL6StF9Tux4MVEiTkDquUpPG8B8TKQm6DqKY"
-              target="_blank"
-            >
-              <button>DEX</button>
-            </a>
-            <a
-              href="https://jup.ag/swap/SOL-MAGAIBA_A6rSPi9JmJgVkW6BatsA6MjFYLseizPM2Fnt92coFjf4"
-              target="_blank"
-            >
-              <button>JUP</button>
-            </a>
+            <b>GET MAGAIBA:</b>
+            <div>
+              <a
+                href="https://dexscreener.com/solana/5pxvyeqa7iwfuxcypuiqpdjztafnc8x5s3x3tddmptoa?maker=GufSRJrwUL6StF9Tux4MVEiTkDquUpPG8B8TKQm6DqKY"
+                target="_blank"
+              >
+                <button>DEX</button>
+              </a>
+              <a
+                href="https://jup.ag/swap/SOL-MAGAIBA_A6rSPi9JmJgVkW6BatsA6MjFYLseizPM2Fnt92coFjf4"
+                target="_blank"
+              >
+                <button>JUP</button>
+              </a>
+              <a
+                href="https://trade.ripio.com/market/market-out?pairCode=MAGAIBAUXD"
+                target="_blank"
+              >
+                <button>RIPIO</button>
+              </a>
+            </div>
           </div>
         </div>
 
