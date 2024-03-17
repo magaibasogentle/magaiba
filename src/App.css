@@ -127,6 +127,10 @@ main {
 /* RESPONSIVE */
 
 @media (max-width: 800px) {
+  .audio {
+    display: none;
+  }
+
   .title {
     top: 250px;
   }
@@ -175,23 +179,23 @@ main {
 
   .title {
     left: 46%;
-    top: 230px;
+    top: 180px;
     margin-right: -40px;
   }
   .title h1 {
-    font-size: 3em;
+    font-size: 4em;
   }
   .title h2 {
     font-size: 1.2em;
-    top: 50px;
-    left: 50px;
+    top: 70px;
+    left: 90px;
   }
   .title .ctas {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: fit-content;
-    margin-top: 110px;
+    margin-top: 120px;
     margin-left: 10px;
   }
 
