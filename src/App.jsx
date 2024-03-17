@@ -49,7 +49,7 @@ function App() {
           >
             <FaYoutube color="yellow" fontSize={30} />
           </a>
-          <a href="https://discord.gg/2BCnEmmY" target="_blank">
+          <a href="https://discord.gg/K4NAjhQs" target="_blank">
             <FaDiscord color="yellow" fontSize={30} />
           </a>
           <a href="https://instagram.com/magaibasogentle" target="_blank">
