@@ -10,6 +10,8 @@ import {
   FaTiktok,
 } from "react-icons/fa";
 
+import { TokenDistribution } from "./components/TokenDistribution";
+
 function App() {
   return (
     <>
@@ -64,6 +66,7 @@ function App() {
           <a href="whitepaper.pdf" target="_blank">
             <span>read whitepaper</span>
           </a>
+          <TokenDistribution />
         </section>
 
         <img
