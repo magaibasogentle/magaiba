@@ -18,7 +18,7 @@ function App() {
       <main>
         <section className="address">
           <p>
-            contact address: <b>A6rSPi9JmJgVkW6BatsA6MjFYLseizPM2Fnt92coFjf4</b>
+            contract address: <b>A6rSPi9JmJgVkW6BatsA6MjFYLseizPM2Fnt92coFjf4</b>
           </p>
           <button
             onClick={() =>
