@@ -119,7 +119,7 @@ function App() {
             <b>GET MAGAIBA:</b>
             <div>
               <a
-                href="https://dexscreener.com/solana/5pxvyeqa7iwfuxcypuiqpdjztafnc8x5s3x3tddmptoa?maker=GufSRJrwUL6StF9Tux4MVEiTkDquUpPG8B8TKQm6DqKY"
+                href="https://dexscreener.com/solana/5pxvyeqa7iwfuxcypuiqpdjztafnc8x5s3x3tddmptoa"
                 target="_blank"
               >
                 <button>DEX</button>
