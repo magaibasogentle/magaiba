@@ -18,7 +18,8 @@ function App() {
       <main>
         <section className="address">
           <p>
-            contract address: <b>A6rSPi9JmJgVkW6BatsA6MjFYLseizPM2Fnt92coFjf4</b>
+            contract address:{" "}
+            <b>A6rSPi9JmJgVkW6BatsA6MjFYLseizPM2Fnt92coFjf4</b>
           </p>
           <button
             onClick={() =>
@@ -51,7 +52,7 @@ function App() {
           >
             <FaYoutube color="yellow" fontSize={30} />
           </a>
-          <a href="https://discord.gg/K4NAjhQs" target="_blank">
+          <a href="https://discord.com/invite/SrxeGzGcep" target="_blank">
             <FaDiscord color="yellow" fontSize={30} />
           </a>
           <a href="https://instagram.com/magaibasogentle" target="_blank">
