@@ -19,6 +19,7 @@ export function TokenDistribution() {
               padding: 30,
               borderRadius: 20,
               boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
+              maxWidth: 400,
             }}
           >
             <b>Fixed supply 1.000.000.000:</b>
